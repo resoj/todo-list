@@ -1,5 +1,6 @@
 export class TaskList {
-    constructor() {
+    constructor(taskListTitle) {
+        this.taskListTitle = taskListTitle;
         this.tasks = [];
     }
 
